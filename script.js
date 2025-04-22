@@ -23,7 +23,7 @@ function sortear() {
     if (tempoPassado >= duracao) {
       clearInterval(intervalo);
       const escolhido = numeros[Math.floor(Math.random() * numeros.length)];
-      display.textContent = `🎉 ${92} 🎉`;
+      display.textContent = `🎉 ${escolhido} 🎉`;
     }
   }, intervaloTempo);
 }
